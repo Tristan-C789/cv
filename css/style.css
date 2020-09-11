@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Rubik', sans-serif;;
 	background-color: black;
 	color : white;
 	font-size : 16px;
