@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: black;
+	color : white;
+	font-size : 16px;
+}
+
+#div-table {
+	margin: 0 auto;
+	width: 700px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	border: 2px grey;
+	border-style: solid;
+	border-radius: 8px;
+}
+
+th, td {
+	padding: 15px;
+	border: 1px grey;
+	border-style: solid;
+}
+
+th {
+	font-size: 35px;
+	height: 60px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(145, 145, 145);
+}
+
+footer {
+	color: grey;
+	font-style: italic;
+	font-size: 9px;
+	text-align: right;
+}
+
+.passions {
+	width: 233px;
+	text-align: center;
+	text-decoration: underline dotted white;
+}
+
+.passions-desc {
+	width: 233px;
+	text-align: justify;
+	text-justify: auto;
+}
+
+#passions-img {
+	padding: 0px;
+}
