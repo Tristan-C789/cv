@@ -43,6 +43,7 @@ a {
 	text-decoration: none;
 	color: white;
 	font-weight: 600;
+	transition-duration: .2s
 }
 
 a:hover {
@@ -72,4 +73,24 @@ footer {
 #passions-img {
 	padding: 0px;
 }
+
+::-webkit-scrollbar {
+	width: 8px;
+	transition-duration: 5s;
+}
+
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #4b4b4b;
+	border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #585858;
+	border-radius: 5px;
+}
+
 
