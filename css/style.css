@@ -18,6 +18,13 @@ table {
 	border: 2px grey;
 	border-style: solid;
 	border-radius: 8px;
+	transition-duration: .2s
+}
+
+table:hover {
+	transform: scale(1.05, 1.05);
+	box-shadow: 0px 5px 12px rgb(41, 41, 41);
+	border-color: rgb(39, 39, 39);
 }
 
 th, td {
@@ -65,3 +72,4 @@ footer {
 #passions-img {
 	padding: 0px;
 }
+
