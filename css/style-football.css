@@ -36,5 +36,33 @@ body {
     color: grey;
     border: 1px dotted;
     border-radius: 6px;
+	width: 120px;
 }
 
+.texte {
+	text-align: justify;
+	text-justify: inter-word;
+	width: 800px;
+	margin-left: auto;
+    margin-right: auto;
+
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	transition-duration: 5s;
+}
+
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgb(153, 153, 153);
+	border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: rgb(203, 203, 203);
+	border-radius: 5px;
+}
