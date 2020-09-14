@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+
+body {
+	font-family: 'Rubik', sans-serif;;
+	background-color: black;
+	color : white;
+	font-size : 16px;
+}
+
+#div-table {
+	margin: 0 auto;
+	width: 700px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	border: 2px grey;
+	border-style: solid;
+	border-radius: 8px;
+	transition-duration: .2s
+}
+
+table:hover {
+	transform: scale(1.15, 1.05);
+	box-shadow: 0px 5px 12px rgb(41, 41, 41);
+	border-color: rgb(39, 39, 39);
+}
+
+#nom:hover {
+	transform: scale(1, 1);
+	box-shadow: none;
+	border-color: grey;
+}
+
+th, td {
+	padding: 15px;
+	border: 1px grey;
+	border-style: solid;
+}
+
+th {
+	font-size: 35px;
+	height: 60px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+	transition-duration: .3s
+}
+
+a:hover {
+	text-decoration: underline;
+	color: rgb(145, 145, 145);
+}
+
+footer {
+	color: grey;
+	font-style: italic;
+	font-size: 9px;
+	text-align: right;
+}
+
+.passions {
+	width: 233px;
+	text-align: center;
+	text-decoration: underline dotted white;
+}
+
+.passions-desc {
+	width: 233px;
+	text-align: justify;
+	text-justify: auto;
+}
+
+#passions-img {
+	padding: 0px;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+	transition-duration: 5s;
+}
+
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #4b4b4b;
+	border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #585858;
+	border-radius: 5px;
+}
+
+
